@@ -1,0 +1,19 @@
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 1em;
+}
+
+#contact-form input:not([type="submit"]),
+#contact-form textarea {
+  width: 100%;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 0.25em;
+  margin: 1em;
+}

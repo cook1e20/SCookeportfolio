@@ -1,0 +1,41 @@
+h2 {
+  font-family: "Titillium Web", "Mercury SSm B", georgia, "times new roman";
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+
+p {
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  text-align: center;
+}
+.about {
+  background-color: rgb(36, 60, 76);
+  color: #fdfdfd;
+  padding: 2em 0.5em 2em 0.5em;
+}
+
+.img-hide {
+  display: none;
+  padding: 0.25em;
+}
+.heroImg {
+  padding: 0.25em;
+  background-color: rgb(32, 36, 55);
+  border-radius: 0.5em;
+}
+
+.aboutText {
+  padding: 1em;
+  align-self: center;
+}
+
+@media (min-width: 52rem) {
+  .img-hide {
+    display: inline;
+  }
+  p {
+    line-height: 26px;
+  }
+}

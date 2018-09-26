@@ -1,0 +1,40 @@
+.titleLeft {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.titleLeft .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.titleLeft h1 {
+  font-family: Titillium Web;
+  font-style: Normal;
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0 auto;
+  color: #161616;
+}
+.titleLeft h2 {
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+  font-family: Titillium Web;
+  font-style: Normal;
+  font-size: 2rem;
+  color: #161616;
+}
+.titleLeft #placeholder {
+  height: 2em;
+  display: flex;
+}
+
+@media (min-width: 62rem) {
+  .titleCenter {
+    width: 50vw;
+  }
+}

@@ -1,0 +1,49 @@
+.Container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto;
+  grid-column-gap: 0.5rem;
+  padding: 1rem;
+}
+h3 {
+  margin: 2em 1em 0 1em;
+  text-align: left;
+  font-family: "Titillium Web", "Mercury SSm B", georgia, "times new roman";
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+h4 {
+  font-family: "Titillium Web", "Mercury SSm B", georgia, "times new roman";
+  font-size: 1em;
+  line-height: 1.2em;
+}
+.column-full-12 {
+  grid-column-start: span 12;
+  grid-column-end: span 12;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Calltoaction {
+  display: flex;
+  margin: 0 1em 2em 1em;
+  justify-content: center;
+  align-items: center;
+}
+.inTouch {
+  font-family: "Titillium Web", "Mercury SSm B", georgia, "times new roman";
+  font-size: 1em;
+  margin-left: 1em;
+  border-radius: 0.5em;
+  height: 2.2em;
+}
+
+@media (min-width: 52rem) {
+  .column-md-6 {
+    grid-column-start: span 6;
+    grid-column-end: span 6;
+  }
+}

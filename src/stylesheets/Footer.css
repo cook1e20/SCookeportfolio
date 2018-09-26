@@ -1,0 +1,22 @@
+#footer {
+  background: #29a9df;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialMedia a {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.socialMedia a:hover {
+  transform: scale(0.8);
+}
+
+.footerText {
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+}

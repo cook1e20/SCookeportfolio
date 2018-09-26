@@ -15,7 +15,7 @@ export default class Contact extends Component {
   }
 
   handleChange(event) {
-    this.setState({ Name: event.target.value });
+    this.setState({ [event.target.name]: event.target.value });
   }
 
   render() {

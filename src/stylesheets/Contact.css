@@ -1,4 +1,5 @@
 #contact-form {
+  font-family: georgia, "times new roman", "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -9,6 +10,8 @@
 
 #contact-form input:not([type="submit"]),
 #contact-form textarea {
+  font-family: georgia, "times new roman", "Open Sans", sans-serif;
+  color: rgb(166, 166, 166);
   width: 100%;
   border: 1px solid #b1b1b1;
   box-sizing: border-box;

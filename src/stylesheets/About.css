@@ -1,11 +1,11 @@
 h2 {
-  font-family: "Titillium Web", "Mercury SSm B", georgia, "times new roman";
+  font-family: georgia, "times new roman";
   font-size: 1.4em;
   line-height: 1.2em;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: georgia, "times new roman", "Open Sans", sans-serif;
   font-size: 0.9em;
   line-height: 1.4em;
   text-align: center;

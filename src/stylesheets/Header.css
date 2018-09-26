@@ -18,7 +18,7 @@
   margin: 0 auto;
 }
 .titleLeft h1 {
-  font-family: Moderne Sans, sans-serif;
+  font-family: sans-serif;
   font-style: Normal;
   font-weight: 600;
   font-size: 4rem;
@@ -29,7 +29,7 @@
   margin: 0;
   padding: 0;
   align-self: flex-start;
-  font-family: Moderne Sans, sans-serif;
+  font-family: georgia, sans-serif;
   font-style: Normal;
   font-size: 2rem;
   color: #161616;

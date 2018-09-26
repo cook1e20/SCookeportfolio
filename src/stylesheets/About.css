@@ -5,15 +5,14 @@ h2 {
 }
 
 p {
-  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9em;
   line-height: 1.4em;
   text-align: center;
 }
 .about {
-  background-color: rgb(36, 60, 76);
-  color: #fdfdfd;
-  padding: 2em 0.5em 2em 0.5em;
+  color: rgb(51, 51, 51);
+  padding: 1em 1em 1em 1em;
 }
 
 .img-hide {
@@ -22,7 +21,8 @@ p {
 }
 .heroImg {
   padding: 0.25em;
-  background-color: rgb(32, 36, 55);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #48c6a2 99.97%),
+    #20649b;
   border-radius: 0.5em;
 }
 

@@ -11,11 +11,13 @@ h3 {
   font-family: "Titillium Web", "Mercury SSm B", georgia, "times new roman";
   font-size: 1.4em;
   line-height: 1.2em;
+  color: rgb(51, 51, 51);
 }
 h4 {
   font-family: "Titillium Web", "Mercury SSm B", georgia, "times new roman";
   font-size: 1em;
   line-height: 1.2em;
+  color: rgb(51, 51, 51);
 }
 .column-full-12 {
   grid-column-start: span 12;

@@ -31,6 +31,8 @@ In my spare time you’ll find me cycling, powerlifting and surfing.
 I love travelling and experiencing new cultures and meeting new people.
 
       </p>
+
+
     </div>
   </div>
 );

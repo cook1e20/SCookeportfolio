@@ -1,9 +1,15 @@
+.HeadContainer {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 99.98%),
+    #f0eeec;
+}
 .titleLeft {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 99.98%),
+    #f0eeec;
 }
 .titleLeft .title {
   display: flex;
@@ -12,7 +18,7 @@
   margin: 0 auto;
 }
 .titleLeft h1 {
-  font-family: Titillium Web;
+  font-family: Moderne Sans, sans-serif;
   font-style: Normal;
   font-weight: 600;
   font-size: 4rem;
@@ -23,7 +29,7 @@
   margin: 0;
   padding: 0;
   align-self: flex-start;
-  font-family: Titillium Web;
+  font-family: Moderne Sans, sans-serif;
   font-style: Normal;
   font-size: 2rem;
   color: #161616;

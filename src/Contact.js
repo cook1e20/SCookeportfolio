@@ -32,7 +32,7 @@ export default class Contact extends Component {
 
       <div id="contact-form">
         <h3 className="title">Contact</h3>
-        <form name="contact" id="contact-form" method="POST" netlify="true">
+        <form name="contact" id="contact-form" method="POST" data-netlify="true">
           <input type="text" id="Name" name="Name" value={Name} onSelect={this.selected} onChange={this.handleChange} />
           <input type="email" id="Email" name="Email" value={Email} onSelect={this.selected} onChange={this.handleChange} />
           <textarea type="text" id="addit" name="Message" value={Message} onSelect={this.selected} onChange={this.handleChange} />

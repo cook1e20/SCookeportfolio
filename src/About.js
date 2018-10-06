@@ -4,7 +4,7 @@ import './stylesheets/Work.css';
 import HeroImg from './img/Me.png';
 
 const About = () => (
-  <div className="Container about">
+  <div className="Container about" id="About">
     <div className="column-md-6 img-hide">
 
       <img className="heroImg" src={HeroImg} alt="Stephen Cooke" />

@@ -1,5 +1,5 @@
 .HeadContainer {
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 99.98%),
+  background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 99.98%),
     #f0eeec;
 }
 .titleLeft {
@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 99.98%),
+  background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
     #f0eeec;
 }
 .titleLeft .title {

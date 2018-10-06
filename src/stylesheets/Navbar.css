@@ -22,11 +22,12 @@ a {
 }
 
 .flex-nav {
-  margin: 0 2rem 0 2rem;
+  padding: 0 2rem 0 2rem;
   border-bottom: solid 1.5px #888;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
+  background-color: rgb(240, 238, 236);
 }
 
 .column-4 {
@@ -51,6 +52,7 @@ a {
   color: #888;
   text-decoration: none;
   outline: none;
+  background-color: rgb(240, 238, 236);
 }
 
 #bars {
@@ -64,7 +66,7 @@ a {
 
 .flex-nav ul.active {
   display: flex;
-  background: #fff;
+  background: rgb(240, 238, 236);
 }
 .flex-nav ul.active li {
   margin: 0.5rem 0;

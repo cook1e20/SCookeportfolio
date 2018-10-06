@@ -8,18 +8,22 @@ export default class Contact extends Component {
     this.state = {
       Name: 'Name',
       Email: 'Email',
-      Message: 'Message..',
+      Message: 'Message',
     };
 
     this.handleChange = this.handleChange.bind(this);
+    this.selected = this.selected.bind(this);
   }
 
-  handleChange(event) {
-    const { name } = event.target;
-    if (name === event.target.value.slice(0, name.length)) {
+  selected(event) {
+    if (event.target.name === event.target.value) {
       this.setState({ [event.target.name]: '' });
     }
-    this.setState({ [event.target.name]: event.target.value });
+  }
+
+
+  handleChange(event) {
+    this.setState({ [event.target.name]: event.value });
   }
 
   render() {
@@ -29,14 +33,14 @@ export default class Contact extends Component {
       <div id="contact-form">
         <h3 className="title">Contact</h3>
         <form name="contact" id="contact-form" method="POST" netlify="true">
-
-          <input type="text" id="Name" name="Name" value={Name} onChange={this.handleChange} />
-          <input type="email" id="Email" name="Email" value={Email} onChange={this.handleChange} />
-          <textarea type="text" id="addit" name="Message" value={Message} onChange={this.handleChange} />
+          <input type="text" id="Name" name="Name" value={Name} onSelect={this.selected} onChange={this.handleChange} />
+          <input type="email" id="Email" name="Email" value={Email} onSelect={this.selected} onChange={this.handleChange} />
+          <textarea type="text" id="addit" name="Message" value={Message} onSelect={this.selected} onChange={this.handleChange} />
 
           <button type="submit">Submit</button>
         </form>
       </div>
+
     );
   }
 }

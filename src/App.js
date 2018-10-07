@@ -1,5 +1,6 @@
 import React from 'react';
 import './stylesheets/App.css';
+import Helmet from 'react-helmet';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Header from './Header';
@@ -10,6 +11,7 @@ import './stylesheets/Fonts.css';
 
 const App = () => (
   <div className="App">
+    <Helmet title="Stephen Cooke Portfolio" />
     <Navbar />
     <Header />
     <About />

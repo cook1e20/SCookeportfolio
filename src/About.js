@@ -1,7 +1,7 @@
 import React from 'react';
 import './stylesheets/About.css';
 import './stylesheets/Work.css';
-import HeroImg from './img/Me.png';
+import HeroImg from './img/Me.jpg';
 
 const About = () => (
   <div className="Container about" id="About">

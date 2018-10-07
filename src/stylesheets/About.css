@@ -11,7 +11,7 @@
   padding: 0.25em;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #48c6a2 99.97%),
     #20649b;
-  border-radius: 0.5em;
+  border-radius: 1000px;
 }
 
 .aboutText {

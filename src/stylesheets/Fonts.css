@@ -27,3 +27,11 @@ p {
   text-align: center;
   color: rgb(51, 51, 51);
 }
+
+.logo {
+  font-family: "Bodoni 72";
+  font-size: 1.2em;
+  font-style: Normal;
+  font-weight: 600;
+  margin: 0.75em;
+}

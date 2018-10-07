@@ -39,7 +39,7 @@ export default class Navbar extends Component {
     return (
       <nav className="flex-nav">
         <div id="icon" className="column-6 column-8">
-          <p>Cooke</p>
+          <p className="logo">Cooke</p>
         </div>
         <div className="column-6 column-4">
           <button type="button" href="#" className="toggle" onClick={this.navToggle}>

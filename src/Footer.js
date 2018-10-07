@@ -15,7 +15,7 @@ const Footer = () => (
   <footer>
     <div id="footer">
       <div id="logo">
-        <p>Cooke</p>
+        <p className="logo logo-footer">Cooke</p>
       </div>
       <p className="footerText">Living Learning Growing</p>
       <div className="socialMedia">

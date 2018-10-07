@@ -1,15 +1,3 @@
-h2 {
-  font-family: georgia, "times new roman";
-  font-size: 1.4em;
-  line-height: 1.2em;
-}
-
-p {
-  font-family: georgia, "times new roman", "Open Sans", sans-serif;
-  font-size: 0.9em;
-  line-height: 1.4em;
-  text-align: center;
-}
 .about {
   color: rgb(51, 51, 51);
   padding: 1em 1em 1em 1em;

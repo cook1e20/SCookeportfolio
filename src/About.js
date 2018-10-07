@@ -14,6 +14,7 @@ const About = () => (
       <h2>
 About Me
       </h2>
+
       <p>
 Hi, I’m Stephen Cooke a Web Developer and Aerospace Engineer.
 I have a wide range of experience in design and development
@@ -31,10 +32,10 @@ In my spare time you’ll find me cycling, powerlifting and surfing.
 I love travelling and experiencing new cultures and meeting new people.
 
       </p>
-
-
     </div>
+
   </div>
+
 );
 
 

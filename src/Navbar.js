@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './stylesheets/Navbar.css';
 
 
-library.add(faBars);
 const element = <FontAwesomeIcon id="bars" icon={faBars} />;
 
 

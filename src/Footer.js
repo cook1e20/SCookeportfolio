@@ -1,11 +1,10 @@
 import React from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faGithub } from '@fortawesome/fontawesome-free-brands';
 import './stylesheets/Footer.css';
 
-library.add(faEnvelope, faTwitter);
+
 const SocialGithub = <FontAwesomeIcon id="SocialGit" icon={faGithub} />;
 const SocialTwitter = <FontAwesomeIcon id="SocialTwitter" icon={faTwitter} />;
 const SocialEmail = <FontAwesomeIcon id="bars" icon={faEnvelope} />;

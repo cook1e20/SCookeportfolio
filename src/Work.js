@@ -18,7 +18,7 @@ const Work = () => (
       <WorkItem address={PowerImg} alt="Image of Powerlifting Coaching website" href="https://naughty-darwin-edaddf.netlify.com/" Title="Coaching" Desc="A website made for a Powerlifting coach." gitlink="https://github.com/cook1e20/product-landing-page" />
     </div>
     <div className="Calltoaction">
-      <h4>Intrested in working together?</h4>
+      <h4>Interested in working together?</h4>
       <a href="#contact-form" className="inTouch">Get in Touch</a>
     </div>
   </div>

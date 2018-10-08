@@ -23,7 +23,7 @@ from making websites and cutting edge aircraft.
 
       <p>
 
-My journey started in aerospace but i soon found a passion for web development.
+My journey started in aerospace but I soon found a passion for web development.
 My two working worlds share lots of similarities
  with common skills such as problem solving, design and teamwork.
       </p>

@@ -34,13 +34,19 @@
   font-size: 2rem;
   color: #161616;
 }
-.titleLeft #placeholder {
+.titleLeft .placeholder {
   height: 2em;
   display: flex;
+  width: 70%;
+  margin: auto;
 }
 
 @media (min-width: 62rem) {
   .titleCenter {
     width: 50vw;
+  }
+  .titleLeft .placeholder {
+    width: 100%;
+    margin: 0;
   }
 }

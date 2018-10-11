@@ -7,9 +7,8 @@ const Header = () => (
     <div className="titleLeft titleCenter">
       <div className="title">
         <h1>Stephen Cooke.</h1>
-        <div id="placeholder">
-          <TypeWriter />
-        </div>
+        <TypeWriter />
+
       </div>
     </div>
   </div>

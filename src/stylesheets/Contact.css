@@ -1,11 +1,16 @@
-#contact-form {
+.contact-form {
   font-family: georgia, "times new roman", "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
+  height: 70vh;
   width: 90%;
   margin: auto;
   align-items: center;
   padding: 1em;
+}
+
+#addit {
+  height: 50%;
 }
 
 #contact-form input:not([type="submit"]),
@@ -19,4 +24,14 @@
   font-size: 1em;
   padding: 0.25em;
   margin: 1em;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (min-width: 40rem) {
+  .contact-form {
+    height: 50vh;
+  }
 }

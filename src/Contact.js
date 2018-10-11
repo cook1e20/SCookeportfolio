@@ -46,14 +46,14 @@ export default class Contact extends Component {
     const { Name, Email, Message } = this.state;
     return (
 
-      <div id="contact-form">
+      <div className="contact-form">
         <h3 className="title">Contact</h3>
-        <form name="contact" id="contact-form" onSubmit={this.handleSubmit}>
+        <form name="contact" className="contact-form" id="contact-form" onSubmit={this.handleSubmit}>
           <input type="text" id="Name" name="Name" value={Name} onSelect={this.selected} onChange={this.handleChange} />
           <input type="email" id="Email" name="Email" value={Email} onSelect={this.selected} onChange={this.handleChange} />
           <textarea type="text" id="addit" name="Message" value={Message} onSelect={this.selected} onChange={this.handleChange} />
 
-          <button type="submit">Submit</button>
+          <button className="inTouch" type="submit">Submit</button>
         </form>
       </div>
 

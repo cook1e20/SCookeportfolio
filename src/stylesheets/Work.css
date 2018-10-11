@@ -29,7 +29,7 @@ img {
   margin: 1em;
 }
 .Calltoaction {
-  display: flex;
+  display: none;
   margin: 0 1em 2em 1em;
   justify-content: center;
   align-items: center;
@@ -39,15 +39,31 @@ img {
   font-size: 1em;
   margin-left: 1em;
   line-height: 1.2em;
-  color: rgb(51, 51, 51);
-  border: 1px solid #000;
   border-radius: 2em;
   padding: 0.25em;
+  border: 3px solid #29a9df;
+  color: #29a9df;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align: center;
+  background: #041520;
+  transition: color 0.5s ease-in;
+}
+.inTouch:hover {
+  background: #29a9df;
+  color: #041520;
+  transition: color 0.5s ease-in;
 }
 
 @media (min-width: 52rem) {
   .column-md-6 {
     grid-column-start: span 6;
     grid-column-end: span 6;
+  }
+}
+
+@media (min-width: 40rem) {
+  .Calltoaction {
+    display: flex;
   }
 }

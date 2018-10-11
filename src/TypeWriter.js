@@ -60,7 +60,7 @@ class TypeWriter extends Component {
   render() {
     const { text } = this.state;
     return (
-      <div id="placeholder">
+      <div className="placeholder">
         <h2>{text}</h2>
       </div>
     );

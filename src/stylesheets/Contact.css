@@ -2,7 +2,7 @@
   font-family: georgia, "times new roman", "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
   width: 90%;
   margin: auto;
   align-items: center;
@@ -28,10 +28,4 @@
 
 button {
   cursor: pointer;
-}
-
-@media (min-width: 40rem) {
-  .contact-form {
-    height: 50vh;
-  }
 }

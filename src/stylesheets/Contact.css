@@ -2,7 +2,6 @@
   font-family: georgia, "times new roman", "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  height: 50vh;
   width: 90%;
   margin: auto;
   align-items: center;
@@ -10,7 +9,7 @@
 }
 
 #addit {
-  height: 50%;
+  height: 10rem;
 }
 
 #contact-form input:not([type="submit"]),

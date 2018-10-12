@@ -11,7 +11,7 @@ import './stylesheets/Fonts.css';
 
 const App = () => (
   <div className="App">
-    <Helmet title="Stephen Cooke Portfolio" />
+    <Helmet title="A portfolio by Stephen Cooke Web Developer" />
     <Navbar />
     <Header />
     <About />

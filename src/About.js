@@ -5,7 +5,7 @@ import HeroImg from './img/Me.jpg';
 
 const About = () => (
   <div className="Container about" id="About">
-    <div className="column-md-6 img-hide">
+    <div className="column-md-6 column-full-12">
 
       <img className="heroImg" src={HeroImg} alt="Stephen Cooke" />
     </div>

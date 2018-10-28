@@ -14,7 +14,7 @@ const Work = () => (
   <div className="Work">
     <h2 className="WorkTitle">My Work So Far</h2>
     <div className="Container">
-      <WorkItem address={SCookeImg} alt="Image of S Cooke Ltd Website" href="https://cranky-thompson-c7792f.netlify.com/" Title="S Cooke Ltd" Desc="A website made for a Aeorspace Consultancy." gitlink="https://github.com/cook1e20/scookelimited.com" />
+      <WorkItem address={SCookeImg} alt="Image of S Cooke Ltd Website" href="https://www.scookelimited.com" Title="S Cooke Ltd" Desc="A website made for a Aeorspace Consultancy." gitlink="https://github.com/cook1e20/scookelimited.com" />
       <WorkItem address={PowerImg} alt="Image of Powerlifting Coaching website" href="https://naughty-darwin-edaddf.netlify.com/" Title="Coaching" Desc="A website made for a Powerlifting coach." gitlink="https://github.com/cook1e20/product-landing-page" />
     </div>
     <div className="Calltoaction">

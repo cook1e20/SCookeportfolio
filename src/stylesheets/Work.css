@@ -1,5 +1,6 @@
 .Container {
   display: grid;
+  display: -ms-grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto;
   grid-column-gap: 0.5rem;
@@ -32,9 +33,9 @@ img {
   display: none;
   margin: 0 1em 2em 1em;
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
 }
 .inTouch {
   font-family: georgia, "times new roman", "Open Sans", sans-serif;

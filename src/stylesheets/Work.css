@@ -2,7 +2,9 @@
   display: grid;
   display: -ms-grid;
   grid-template-columns: repeat(12, 1fr);
+  -ms-grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto;
+  -ms-grid-template-rows: auto auto;
   grid-column-gap: 0.5rem;
   padding: 1rem;
 }
@@ -17,7 +19,9 @@
 
 .column-full-12 {
   grid-column-start: span 12;
+  -ms-grid-column-start: span 12;
   grid-column-end: span 12;
+  -ms-grid-column-end: span 12;
 }
 
 img {
@@ -61,7 +65,9 @@ img {
 @media (min-width: 52rem) {
   .column-md-6 {
     grid-column-start: span 6;
+    -ms-grid-column-start: span 6;
     grid-column-end: span 6;
+    -ms-grid-column-end: span 6;
   }
 }
 

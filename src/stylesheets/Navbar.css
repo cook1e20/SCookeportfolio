@@ -29,13 +29,17 @@ a {
   display: -ms-grid;
 
   grid-template-columns: repeat(12, 1fr);
+  -ms-grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
+  -ms-grid-template-rows: auto;
   background-color: rgb(240, 238, 236);
 }
 
 .column-4 {
   grid-column-start: span 4;
+  -ms-grid-column-start: span 4;
   grid-column-end: span 4;
+  -ms-grid-column-end: span 4;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
@@ -44,7 +48,9 @@ a {
 
 .column-8 {
   grid-column-start: span 8;
+  -ms-grid-column-start: span 8;
   grid-column-end: span 8;
+  -ms-grid-column-end: span 8;
 }
 
 .toggle {
@@ -112,7 +118,9 @@ a {
 
   .column-6 {
     grid-column-start: span 6;
+    -ms-grid-column-start: span 6;
     grid-column-end: span 6;
+    -ms-grid-column-end: span 6;
   }
 
   .flex-nav ul {
